@@ -17,3 +17,4 @@ Implementation of solid principles and most useful design patterns
 * Example:- Inject a low level dependency into class. ProductCatalog Class injecting ProductRepo class
 * Payment example:- Stripe Payment, CreditCard Payment
 * Have a common interface - order.pay(StripePayment.new)
+* Abstractions should not depend upon details
